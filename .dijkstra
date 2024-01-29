@@ -60,6 +60,7 @@ for i in range(columns):
         grid[i][j].set_neighbours()
 
 def main():
+    start_time = time.time()
     begin_search = False
     target_box_set = False
     start_box_set = False
@@ -145,5 +146,8 @@ def main():
 
         pygame.display.flip()
 
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(f"Elapsed Time: {elapsed_time:.5f} seconds")
 
 main()
