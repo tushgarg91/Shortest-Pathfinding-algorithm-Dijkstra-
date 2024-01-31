@@ -1,11 +1,11 @@
 # Shortest-Pathfinding-algorithm-Dijkstra-
 ## By Tushar Garg (21scse1011123) and Mohd. Maaz Khan (21scse1011147)
 
-#  Introduction:
+##  Introduction:
 
 Dijkstra's algorithm, a renowned pathfinding approach, has been adapted to a grid-based environment using the Pygame library in this implementation. The objective is to facilitate the discovery of the shortest path between two nodes within a graph, where each grid cell represents a node. The algorithm's execution is visualized in real-time, providing users with a practical and interactive tool for understanding its behavior.
 
-# Objectives:
+### Objectives:
 The primary goals include the implementation of Dijkstra's algorithm for grid-based pathfinding, user interaction features for defining start and target points, obstacle placement, real-time visualization of the algorithm's execution, user feedback on successful pathfinding or lack thereof, and the recording of performance metrics.
 
 # Methodology:
