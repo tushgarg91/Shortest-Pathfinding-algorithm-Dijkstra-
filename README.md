@@ -1,5 +1,5 @@
 # Shortest-Pathfinding-algorithm-Dijkstra-
-By Tushar Garg (21scse1011123) and Mohd. Maaz Khan (21scse1011147)
+# By Tushar Garg (21scse1011123) and Mohd. Maaz Khan (21scse1011147)
 
 #  Introduction:
 
@@ -17,12 +17,19 @@ The design allows users to configure grid dimensions for flexibility. Cells are 
 # Visualization:
 Real-time changes in cell colors effectively indicate their current state, distinguishing between queued, visited, and path cells. The Pygame library ensures a visually intuitive representation of the algorithm's execution, enhancing the user's understanding.
 
-# Algorithm Analysis:
+# Dijkstra's Algorithm Analysis:
 Dijkstra's algorithm guarantees the discovery of the shortest path, and the grid-based implementation facilitates interactive user comprehension of its behavior.
 The main loop continually checks for user input and progresses through the algorithm steps if initiated.
 The algorithm uses a priority queue (queue) to explore cells based on their distance from the starting cell.
 Each cell keeps track of whether it has been visited, its predecessors, and whether it is part of the final path.
 The algorithm continues until the target cell is reached, and then it reconstructs the path from the target cell back to the starting cell.
+
+# Performance Metrics And Improvements:
+
+The algorithm records the elapsed time it takes to find the solution, providing insights into its efficiency.
+While Dijkstra's algorithm guarantees the shortest path, it may not be the most efficient for certain scenarios (e.g., a large number of cells).
+Users might benefit from the option to visualize and compare other pathfinding algorithms like A* or consider weighted edges.
+
 
 # Conclusion:
 The implementation successfully realizes Dijkstra's algorithm in a user-friendly grid-based environment. The real-time visualization feature significantly aids users in comprehending the intricacies of the algorithm's execution.
