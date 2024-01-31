@@ -31,7 +31,7 @@ While Dijkstra's algorithm guarantees the shortest path, it may not be the most 
 Users might benefit from the option to visualize and compare other pathfinding algorithms like A* or consider weighted edges.
 
 
-# Conclusion:
+## Conclusion:
 The implementation successfully realizes Dijkstra's algorithm in a user-friendly grid-based environment. The real-time visualization feature significantly aids users in comprehending the intricacies of the algorithm's execution.
 
 ## Future Considerations:
